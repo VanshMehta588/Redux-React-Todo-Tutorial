@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+#new-task {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  /* width: 20%; */
+}
+
+#tasks-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-item.completed {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.task-item input[type="checkbox"] {
+  margin-right: 1rem;
+}
+
+.task-item button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #aaa;
+}
+.task-item button:hover{
+  color: #000;
+  
+}
+
+button{
+  background-color: rgb(63, 63, 63);
+  padding: 1rem;
+  border: white;
+  color: #ddd;
+  border-radius: 5px;
+}
