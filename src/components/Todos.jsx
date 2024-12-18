@@ -28,7 +28,7 @@ export const Todos = () => {
                 <div className="row">
                     {todos.length > 0 ? (
                         todos.map((todo) => (
-                            <div key={todo.id} className="col-md-4">
+                            <div key={todo.id} className="col-lg-4">
                                 <div className="card mb-3">
                                     <div className="card-body d-flex justify-content-between align-items-center">
                                         {editId === todo.id ? (
